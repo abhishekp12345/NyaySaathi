@@ -1,0 +1,32 @@
+# Environment variables & secrets (NEVER commit API keys!)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large temporary audio / scratch files
+*.wav
+*.mp3
+*.m4a
+*.webm
+*.ogg
+!voice_sample.wav

@@ -1,0 +1,326 @@
+# Paisa Wapas — Curated Legal Knowledge Base
+# Last reviewed: 2026-11-06
+# All entries verified against official sources where marked verified: true
+# Entries with verified: false use hedged language at runtime
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CONSUMER
+# ═══════════════════════════════════════════════════════════════════════════════
+
+- id: CPA-2019-OVERVIEW
+  category: [consumer]
+  act: "Consumer Protection Act, 2019"
+  section: "Sections 2(7), 34, 35"
+  plain_summary: >
+    The Consumer Protection Act, 2019 protects buyers of goods and services. If you bought something
+    or hired a service and got cheated, got a defective product, or were denied a refund, you can
+    file a complaint. The law covers online purchases too.
+  applies_when: "Any consumer dispute involving goods or services"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/15256"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Replaced Consumer Protection Act, 1986"
+
+- id: CPA-2019-DISTRICT-JURIS
+  category: [consumer]
+  act: "Consumer Protection Act, 2019 + Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021"
+  section: "Section 34(1) read with Jurisdiction Rules, 2021"
+  plain_summary: >
+    If the total amount you paid for the goods or service is up to ₹50 lakh, you file your complaint
+    at the District Consumer Disputes Redressal Commission. Above ₹50 lakh up to ₹2 crore goes to
+    the State Commission, and above ₹2 crore to the National Commission.
+  applies_when: "Deciding which Consumer Commission to file at based on claim amount"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/15256"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "The ₹50 lakh threshold is based on consideration paid, not damages claimed"
+
+- id: CPA-2019-LIMITATION
+  category: [consumer]
+  act: "Consumer Protection Act, 2019"
+  section: "Section 69(1)"
+  plain_summary: >
+    You must file your consumer complaint within 2 years from the date the problem happened
+    (cause of action). If you are late, you can ask the Commission to still accept it, but you
+    need a good reason for the delay.
+  applies_when: "Checking if a consumer complaint is within time"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/15256"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Condonation of delay is possible but not guaranteed"
+
+- id: EJAGRITI-FILING
+  category: [consumer]
+  act: "e-Jagriti portal (replaced e-Daakhil from 1 Jan 2025)"
+  section: "N/A — online filing system"
+  plain_summary: >
+    Consumer complaints can be filed online at e-jagriti.gov.in. You need to create an account,
+    fill in your complaint details, upload documents, and pay a small fee online. This replaced
+    the older e-Daakhil system from January 2025.
+  applies_when: "Filing a consumer complaint online"
+  source_url: "https://e-jagriti.gov.in"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Do NOT refer users to e-Daakhil — it is defunct"
+
+- id: NCH-1915
+  category: [consumer]
+  act: "National Consumer Helpline"
+  section: "N/A — pre-litigation grievance service"
+  plain_summary: >
+    Before going to court, call 1915 (National Consumer Helpline) or visit consumerhelpline.gov.in.
+    They connect you with the company for free and try to resolve the issue. Many companies
+    respond faster through this channel. Keep the complaint number they give you.
+  applies_when: "First step for any consumer complaint — try before formal complaint"
+  source_url: "https://consumerhelpline.gov.in"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Free service, available Mon–Sat"
+
+- id: CONSUMER-PROOF
+  category: [consumer]
+  act: "N/A — practical guidance"
+  section: "N/A"
+  plain_summary: >
+    Useful proof for consumer complaints: purchase invoice/receipt/order ID, screenshots of the
+    product listing and what you received, email/chat with customer care, return tracking details,
+    bank statement showing payment, and any company response refusing the refund.
+  applies_when: "Gathering evidence for a consumer complaint"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Practical guidance, not a statutory requirement"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# DEPOSIT / TENANCY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+- id: TENANCY-STATE-SPECIFIC
+  category: [deposit]
+  act: "State-specific Rent Control / Tenancy Acts"
+  section: "Varies by state"
+  plain_summary: >
+    Tenancy and rent laws in India are made by each state, not the central government. The Model
+    Tenancy Act 2021 is just a suggestion — only some states have adopted it. Your rights about
+    security deposit depend on your state's law. For example, some states cap the deposit at 2–3
+    months' rent.
+  applies_when: "Any deposit/tenancy dispute — always check the user's state"
+  source_url: "https://legislative.gov.in/model-tenancy-act-2021"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "MUST ask user's state before giving tenancy advice"
+
+- id: DEPOSIT-LEGAL-NOTICE
+  category: [deposit]
+  act: "General civil law — legal notice procedure"
+  section: "N/A"
+  plain_summary: >
+    A legal notice is a formal pre-litigation demand letter sent to the landlord demanding return
+    of the security deposit. The cure deadline is typically 15 days by custom, but is configurable
+    (e.g., 7, 15, or 30 days) based on the lease contract terms and state tenancy rules. A 15-day period
+    is standard pre-litigation practice rather than a universal statutory mandate. Send it by registered
+    post or speed post with A/D and email to preserve proof of service.
+  applies_when: "Landlord refuses to return security deposit after repeated requests"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Notice cure period is configurable and customary, not a universal statutory mandate"
+
+- id: DEPOSIT-TPA-CONTRACT
+  category: [deposit]
+  act: "Indian Contract Act, 1872 & Transfer of Property Act, 1882"
+  section: "Section 73 Contract Act read with Section 108(m) TPA"
+  plain_summary: >
+    The return of a tenancy security deposit is primarily grounded in the lease contract terms
+    governed by Section 73 of the Indian Contract Act, 1872 (for breach of contract / money had and received)
+    and state tenancy laws. Section 108 of the Transfer of Property Act, 1882 outlines general rights
+    and liabilities of lessor and lessee; specifically, Section 108(m) protects the tenant against
+    deductions for reasonable wear and tear upon peaceful handover. Section 108 is not a standalone guarantee
+    for deposit refund, which rests on the contract and state rent regulations.
+  applies_when: "Legal grounding for tenancy deposit refund and disputed deductions"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/2338"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Clarifies that Section 108 TPA is not a standalone deposit refund guarantee"
+
+- id: DEPOSIT-LIMITATION
+  category: [deposit]
+  act: "Limitation Act, 1963"
+  section: "Article 24, Schedule — Part I"
+  plain_summary: >
+    For recovering money (like a security deposit), you generally have 3 years from the date
+    the money became due. For a deposit, this is typically the date you vacated the property
+    and the landlord should have returned it.
+  applies_when: "Checking time limit for filing a deposit recovery case"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/1317"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "This is the general limitation; specific state tenancy acts may differ"
+
+- id: DEPOSIT-PROOF
+  category: [deposit]
+  act: "N/A — practical guidance"
+  section: "N/A"
+  plain_summary: >
+    Useful proof for deposit disputes: rental agreement, deposit payment receipt or bank transfer
+    proof, photos of the property when you moved in and when you moved out, messages/emails
+    with the landlord about returning the deposit, and any written response from the landlord.
+  applies_when: "Gathering evidence for a deposit dispute"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Practical guidance"
+
+- id: DEPOSIT-FORUM
+  category: [deposit]
+  act: "Civil Procedure Code / State tenancy law"
+  section: "N/A"
+  plain_summary: >
+    Deposit disputes are usually handled by civil courts. If the landlord also charged you
+    unfairly for services (like maintenance), it might qualify as a consumer complaint too.
+    A lawyer can advise on the best forum. For small amounts, a legal notice alone often works.
+  applies_when: "Deciding where to file for deposit recovery"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Some states have Rent Tribunals or Rent Controllers"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SALARY / EMPLOYMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+- id: COW-2019-OVERVIEW
+  category: [salary]
+  act: "Code on Wages, 2019"
+  section: "Sections 17, 18, 19"
+  plain_summary: >
+    The Code on Wages, 2019 (which came into force on 21 November 2025) replaced the old
+    Payment of Wages Act, 1936 and Minimum Wages Act, 1948. It says employers must pay wages
+    on time — before the 7th of the next month for companies with fewer than 1000 workers,
+    or the 10th for larger ones. Unpaid wages can be claimed.
+  applies_when: "Employer has not paid salary on time or withheld wages"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/13325"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "The Payment of Wages Act, 1936 is REPEALED. Do NOT cite it."
+
+- id: COW-2019-FNF
+  category: [salary]
+  act: "Code on Wages, 2019 + applicable state rules"
+  section: "Section 17(2)"
+  plain_summary: >
+    When you leave or are terminated, the employer must settle all dues (final salary, earned
+    leave encashment, etc.) within 2 working days. This is called 'full and final settlement'.
+    However, state rules under the new Code are still being finalized, so timelines may vary.
+  applies_when: "Employee has resigned or been terminated and not received final settlement"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/13325"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "State rules still being finalized as of Nov 2026 — mention this caveat"
+
+- id: SALARY-LIMITATION
+  category: [salary]
+  act: "Code on Wages, 2019"
+  section: "Section 45"
+  plain_summary: >
+    Claims for unpaid wages generally must be made within 3 years. The exact procedure
+    depends on your state's rules under the Code on Wages. Contact the Labour Commissioner
+    in your district as the first step.
+  applies_when: "Checking time limit for wage claims"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/13325"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "State rules may adjust timelines"
+
+- id: SALARY-LABOUR-AUTHORITY
+  category: [salary]
+  act: "Code on Wages, 2019"
+  section: "Section 45"
+  plain_summary: >
+    For unpaid salary complaints, approach the Labour Commissioner or the authority appointed
+    under the Code on Wages in your district. You can also file online on your state's labour
+    department portal where available. The process is simpler and cheaper than going to court.
+  applies_when: "Deciding where to complain about unpaid salary"
+  source_url: "https://www.indiacode.nic.in/handle/123456789/13325"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Each state has its own appointed authority"
+
+- id: SALARY-DEMAND
+  category: [salary]
+  act: "N/A — practical guidance"
+  section: "N/A"
+  plain_summary: >
+    Before filing a formal complaint, send a written demand to your employer (by email and
+    registered post) asking for the specific unpaid amount within 15 days. Keep a copy. If
+    the company has an HR department, also send it to the HR head. This creates a paper trail.
+  applies_when: "First step for unpaid salary — formal demand"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Practical guidance"
+
+- id: SALARY-PROOF
+  category: [salary]
+  act: "N/A — practical guidance"
+  section: "N/A"
+  plain_summary: >
+    Useful proof for salary disputes: offer letter/appointment letter, salary slips, bank
+    statements showing past salary credits (and the gap), employment contract, resignation
+    acceptance or termination letter, any HR communication about the pending amount.
+  applies_when: "Gathering evidence for a salary dispute"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Practical guidance"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# GENERAL / CROSS-CUTTING
+# ═══════════════════════════════════════════════════════════════════════════════
+
+- id: NALSA-15100
+  category: [consumer, deposit, salary]
+  act: "Legal Services Authorities Act, 1987 (Section 12) — NALSA"
+  section: "Section 12 (Pan-India Legal Aid Helpline 15100)"
+  plain_summary: >
+    The National Legal Services Authority (NALSA) operates the official 24x7 toll-free National Legal Aid Helpline: 15100 (accessible pan-India at nalsa.gov.in and nalsa15100.in).
+    Under Section 12 of the Legal Services Authorities Act, 1987, free legal counsel, legal advice, and panel advocates are provided to eligible citizens (including women,
+    industrial workmen, persons with disabilities, and citizens with annual income below state ceilings). The IVRS supports multiple regional languages and connects callers directly
+    to their District Legal Services Authority (DLSA) or State Legal Services Authority (SLSA). Note: Delhi SLSA operates regional helpline 1516.
+  applies_when: "User cannot afford a lawyer, needs free legal representation, or requires escalation to District Legal Services Authority"
+  source_url: "https://nalsa.gov.in"
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Verified official 24x7 Pan-India toll-free helpline is 15100. Regional Delhi SLSA helpline is 1516."
+
+- id: LEGAL-NOTICE-HOWTO
+  category: [consumer, deposit, salary]
+  act: "N/A — practical guidance"
+  section: "N/A"
+  plain_summary: >
+    A legal notice is a formal letter telling the other party what they owe and what you'll
+    do if they don't pay. Key elements: your name and address, their name and address, facts
+    of the dispute, the amount claimed, a deadline (usually 15 days), and the legal action
+    you will take. Send by registered post/speed post AND email. Keep the postal receipt.
+  applies_when: "Understanding what a legal notice is and how to send one"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Not mandatory before filing a case but strongly recommended"
+
+- id: REPEALED-LAWS-WARNING
+  category: [consumer, deposit, salary]
+  act: "N/A — system guidance"
+  section: "N/A"
+  plain_summary: >
+    IMPORTANT: The following laws have been REPEALED and must NOT be cited as current:
+    Payment of Wages Act, 1936 (replaced by Code on Wages, 2019);
+    Minimum Wages Act, 1948 (replaced by Code on Wages, 2019);
+    Indian Penal Code / IPC (replaced by BNS, 2023);
+    CrPC (replaced by BNSS, 2023);
+    Indian Evidence Act (replaced by BSA, 2023).
+  applies_when: "System validation — never cite these repealed laws"
+  source_url: ""
+  verified: true
+  last_checked: "2026-11-06"
+  notes: "Validator must catch any mention of these"

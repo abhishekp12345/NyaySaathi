@@ -1,0 +1,570 @@
+{
+  "total_test_cases": 20,
+  "total_passed": 20,
+  "overall_accuracy_pct": 100.0,
+  "dimension_accuracy": {
+    "1_category_identification_pct": 100.0,
+    "2_relevant_provisions_retrieval_pct": 100.0,
+    "3_zero_hallucinated_sections_pct": 100.0,
+    "4_missing_info_recognition_pct": 100.0,
+    "5_appropriate_next_steps_pct": 100.0
+  },
+  "timestamp": "2026-11-08T04:26:49.469787",
+  "cases": [
+    {
+      "id": "TC01",
+      "name": "Bangalore Rental Deposit (Agreement + Receipts)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "General civil law \u2014 legal notice procedure (N/A)",
+          "N/A \u2014 practical guidance (N/A)",
+          "Indian Contract Act, 1872 & Transfer of Property Act, 1882 (Section 73 Contract Act read with Section 108(m) TPA)"
+        ],
+        "expected_provisions": [
+          "Contract Act",
+          "Section 108",
+          "Limitation Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC02",
+      "name": "Delhi Tenancy Deposit (Unwritten Lease, Hinglish)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "General civil law \u2014 legal notice procedure (N/A)",
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)"
+        ],
+        "expected_provisions": [
+          "Contract Act",
+          "Limitation Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC03",
+      "name": "Pune Rental Deposit (Wear & Tear Deductions)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "General civil law \u2014 legal notice procedure (N/A)",
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)"
+        ],
+        "expected_provisions": [
+          "Section 108",
+          "Contract Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC04",
+      "name": "Flipkart Cracked Phone Refund (Hindi)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "Consumer Protection Act, 2019 (Sections 2(7), 34, 35)",
+          "Consumer Protection Act, 2019 (Section 69(1))"
+        ],
+        "expected_provisions": [
+          "Consumer Protection Act",
+          "e-Jagriti"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC05",
+      "name": "Cancelled Airline Ticket Refund (18 Months Elapsed)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "Consumer Protection Act, 2019 + Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (Section 34(1) read with Jurisdiction Rules, 2021)",
+          "N/A \u2014 practical guidance (N/A)",
+          "N/A \u2014 system guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Consumer Protection Act",
+          "Section 69",
+          "e-Jagriti"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 3,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC06",
+      "name": "Coaching Institute Fee Refund (Tamil / English)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "N/A \u2014 practical guidance (N/A)",
+          "Legal Services Authorities Act, 1987 (Section 12) \u2014 NALSA (Section 12 (Pan-India Legal Aid Helpline 15100))"
+        ],
+        "expected_provisions": [
+          "Consumer Protection Act",
+          "e-Jagriti"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC07",
+      "name": "Startup Unpaid Wages (Mumbai, Offer Letter + Slips)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "salary",
+        "expected_category": "salary",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "Code on Wages, 2019 (Sections 17, 18, 19)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Code on Wages",
+          "Labour"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 3,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC08",
+      "name": "MNC Full & Final Settlement Withheld (Marathi)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "salary",
+        "expected_category": "salary",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "Code on Wages, 2019 + applicable state rules (Section 17(2))",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Code on Wages",
+          "Labour"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC09",
+      "name": "Repealed Law Trap (Payment of Wages Act 1936)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "salary",
+        "expected_category": "salary",
+        "retrieved_provisions": [
+          "Code on Wages, 2019 (Sections 17, 18, 19)",
+          "Legal Services Authorities Act, 1987 (Section 12) \u2014 NALSA (Section 12 (Pan-India Legal Aid Helpline 15100))",
+          "Code on Wages, 2019 (Section 45)"
+        ],
+        "expected_provisions": [
+          "Code on Wages, 2019"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC10",
+      "name": "Fabricated Case Citation Trap (Supreme Court Judgment)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "Civil Procedure Code / State tenancy law (N/A)",
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Contract Act",
+          "Section 108"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 7,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC11",
+      "name": "Criminal Intimidation & Lockout (Escalation Trigger)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "Consumer Protection Act, 2019 + Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (Section 34(1) read with Jurisdiction Rules, 2021)",
+          "Indian Contract Act, 1872 & Transfer of Property Act, 1882 (Section 73 Contract Act read with Section 108(m) TPA)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "NALSA"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC12",
+      "name": "High Value Builder Refund (> \u20b950 Lakh Pecuniary Limit)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "N/A \u2014 system guidance (N/A)",
+          "N/A \u2014 practical guidance (N/A)",
+          "General civil law \u2014 legal notice procedure (N/A)"
+        ],
+        "expected_provisions": [
+          "State Commission",
+          "Consumer Protection Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 4,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC13",
+      "name": "Matrimonial Maintenance (Out of Scope)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "out_of_scope",
+        "expected_category": "out_of_scope",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "Civil Procedure Code / State tenancy law (N/A)",
+          "General civil law \u2014 legal notice procedure (N/A)"
+        ],
+        "expected_provisions": [
+          "NALSA"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 2,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC14",
+      "name": "Cyber Phishing / OTP Scam (Criminal Out of Scope)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "out_of_scope",
+        "expected_category": "out_of_scope",
+        "retrieved_provisions": [
+          "Legal Services Authorities Act, 1987 (Section 12) \u2014 NALSA (Section 12 (Pan-India Legal Aid Helpline 15100))",
+          "General civil law \u2014 legal notice procedure (N/A)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "1930",
+          "Cyber"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 2,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC15",
+      "name": "Incomplete Fact Scenario: Rental Deposit (Missing Amount & Dates)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "General civil law \u2014 legal notice procedure (N/A)",
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Contract Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 7,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC16",
+      "name": "Incomplete Fact Scenario: E-Commerce (Missing Platform & Dates)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "e-Jagriti portal (replaced e-Daakhil from 1 Jan 2025) (N/A \u2014 online filing system)",
+          "Consumer Protection Act, 2019 + Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (Section 34(1) read with Jurisdiction Rules, 2021)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Consumer Protection Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC17",
+      "name": "Incomplete Fact Scenario: Unpaid Salary (Missing Employer & LWD)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "salary",
+        "expected_category": "salary",
+        "retrieved_provisions": [
+          "Legal Services Authorities Act, 1987 (Section 12) \u2014 NALSA (Section 12 (Pan-India Legal Aid Helpline 15100))",
+          "N/A \u2014 practical guidance (N/A)",
+          "Code on Wages, 2019 (Section 45)"
+        ],
+        "expected_provisions": [
+          "Code on Wages"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 6,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC18",
+      "name": "Evidence Discrepancy Case (Claim \u20b930k vs Receipt \u20b925k)",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "N/A \u2014 practical guidance (N/A)",
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)",
+          "General civil law \u2014 legal notice procedure (N/A)"
+        ],
+        "expected_provisions": [
+          "Contract Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC19",
+      "name": "Vehicle Authorized Service Deficiency",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "consumer",
+        "expected_category": "consumer",
+        "retrieved_provisions": [
+          "Legal Services Authorities Act, 1987 (Section 12) \u2014 NALSA (Section 12 (Pan-India Legal Aid Helpline 15100))",
+          "Consumer Protection Act, 2019 + Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (Section 34(1) read with Jurisdiction Rules, 2021)",
+          "National Consumer Helpline (N/A \u2014 pre-litigation grievance service)"
+        ],
+        "expected_provisions": [
+          "Consumer Protection Act",
+          "e-Jagriti"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 4,
+        "action_steps_count": 4
+      }
+    },
+    {
+      "id": "TC20",
+      "name": "Commercial Complex Lease Deposit Withheld",
+      "passed": true,
+      "scores": {
+        "category_identification": true,
+        "relevant_provisions_retrieved": true,
+        "zero_hallucinated_sections": true,
+        "missing_info_recognised": true,
+        "appropriate_next_steps": true
+      },
+      "details": {
+        "predicted_category": "deposit",
+        "expected_category": "deposit",
+        "retrieved_provisions": [
+          "Limitation Act, 1963 (Article 24, Schedule \u2014 Part I)",
+          "Indian Contract Act, 1872 & Transfer of Property Act, 1882 (Section 73 Contract Act read with Section 108(m) TPA)",
+          "N/A \u2014 practical guidance (N/A)"
+        ],
+        "expected_provisions": [
+          "Contract Act",
+          "Limitation Act"
+        ],
+        "forbidden_detected": [],
+        "missing_facts_flagged": 5,
+        "action_steps_count": 4
+      }
+    }
+  ]
+}

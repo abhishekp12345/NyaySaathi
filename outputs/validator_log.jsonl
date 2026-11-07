@@ -1,0 +1,90 @@
+{"timestamp": "2026-11-06T12:27:36.395487", "original_text": "Payment of Wages Act", "matched_pattern": "Payment\\s+of\\s+Wages\\s+Act", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T12:27:36.395616", "original_text": "Section 34", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": "CPA-2019-DISTRICT-JURIS"}
+{"timestamp": "2026-11-06T23:51:07.886135", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886516", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886550", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886568", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886585", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886610", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:07.886625", "original_text": "vs. ", "matched_pattern": "\\bvs\\.\\s", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:48.780202", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:48.780279", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:48.780297", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-06T23:51:48.780313", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:22.715605", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:22.716070", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:22.716132", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:22.716158", "original_text": "Tenancy Act 2021", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095134", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095212", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095237", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095256", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095278", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T01:10:29.095294", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T02:06:53.126330", "original_text": "Section 12", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T02:06:53.126758", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T02:06:53.126807", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T02:06:53.126831", "original_text": "Authorities Act, 1987", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-07T02:06:59.488233", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:44.086719", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:44.087271", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:44.087305", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:52.116051", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:52.116177", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:52.116230", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:52.116277", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:48:52.116315", "original_text": "Limitation Act, 1963", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:36.626617", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:36.626679", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:36.626694", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:36.626705", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:38.492473", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:38.492572", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:38.492605", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:38.492627", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:47.096376", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:47.096459", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:47.096490", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:47.096531", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:47.096555", "original_text": "Limitation Act, 1963", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:55.406382", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:55.406507", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:55.406684", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:55.406711", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:58.629320", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:58.629397", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:58.629426", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:53:58.629449", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:55:08.670020", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:55:08.670075", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:55:08.670093", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T02:55:08.670106", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:23.894473", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:23.894751", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:23.894819", "original_text": "vs. ", "matched_pattern": "\\bvs\\.\\s", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:26.707395", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:26.707491", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:26.707522", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:29:26.707544", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:41.877525", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:41.877642", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:41.877681", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:41.877710", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109272", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109371", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109411", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109441", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109471", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:32:49.109498", "original_text": "Limitation Act, 1963", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:36.176425", "original_text": "Section 12", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:36.176477", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:36.176495", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:36.176508", "original_text": "Authorities Act, 1987", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:36.176518", "original_text": "vs. ", "matched_pattern": "\\bvs\\.\\s", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:41.872998", "original_text": "Section 73", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:41.873074", "original_text": "Section 108(m)", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:41.873097", "original_text": "Contract Act, 1872", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T03:55:41.873116", "original_text": "Property Act, 1882", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T04:23:01.464859", "original_text": "Section 12", "matched_pattern": "Section\\s+\\d+[\\w()]*", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T04:23:01.464937", "original_text": "Authorities Act, 1987", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
+{"timestamp": "2026-11-08T04:23:07.097745", "original_text": "Protection Act, 2019", "matched_pattern": "\\w+\\s+Act,?\\s+\\d{4}", "action": "removed", "kb_id_found": null}
