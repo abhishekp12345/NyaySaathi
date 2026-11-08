@@ -93,7 +93,7 @@ def build_solution_docx():
 
     # 4. Deliverables
     add_h("4. Submission Deliverables Summary")
-    add_bullet("Gradio interactive dashboard with 3 columns (Voice/Text Chat, Case Analysis & Document Viewer, Recovery Roadmap) running at http://localhost:7860/.", "1. Interactive Prototype:")
+    add_bullet("Live public prototype deployed at https://0c4146a8ae3626508f.gradio.live and GitHub repository at https://github.com/abhishekp12345/NyaySaathi.", "1. Interactive Prototype:")
     add_bullet("Formal Legal Notice and 4-Step Recovery Action Plan downloadable as editable Microsoft Word documents (.docx) with clear [[PLACEHOLDER]] markers.", "2. Pre-Litigation Notice & Action Plan:")
     add_bullet("Complete raw unedited test results and metrics preserved in outputs/evaluation_report.json and outputs/validator_log.jsonl.", "3. Raw Test Outputs:")
     add_bullet("All legal drafts include a clear statutory disclaimer stating this tool provides educational legal information and does not constitute formal advocate representation under the Advocates Act, 1961.", "4. Legal Disclaimer:")
