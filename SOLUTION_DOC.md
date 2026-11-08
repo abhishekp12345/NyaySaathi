@@ -1,6 +1,6 @@
 # NyaySaathi (न्याय साथी) — AI Legal Assistant for Everyday Money Disputes in India
 **Kuku AI Generalist Assignment — Problem 2 Submission Document (2 Pages)**  
-**Candidate Name:** Abhishek Kumar Priyadershi | **Roll No:** 230047 | **Branch / Institute:** BSBE, IIT Kanpur | **Problem:** Problem 2 (AI Lawyer)  
+**Candidate Name:** Abhishek Kumar Priyadershi | **Roll No:** 230047 | **Branch:** BSBE | **College:** IIT Kanpur | **Problem:** Problem 2 (AI Lawyer)  
 **Live Prototype URL:** https://0c4146a8ae3626508f.gradio.live | **GitHub Repo:** https://github.com/abhishekp12345/NyaySaathi | **Raw Outputs:** `outputs/`
 
 ---

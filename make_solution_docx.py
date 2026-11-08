@@ -30,7 +30,7 @@ def build_solution_docx():
     sub.font.size = Pt(9.5)
     sub.font.color.rgb = RGBColor(0x4F, 0x46, 0xE5)
 
-    cand = title.add_run("Candidate: Abhishek Kumar Priyadershi  •  Roll No: 230047  •  Branch: BSBE, IIT Kanpur\n")
+    cand = title.add_run("Candidate: Abhishek Kumar Priyadershi  •  Roll No: 230047  •  Branch: BSBE  •  College: IIT Kanpur\n")
     cand.bold = True
     cand.font.size = Pt(9.5)
     cand.font.color.rgb = RGBColor(0x11, 0x18, 0x27)
