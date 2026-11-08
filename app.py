@@ -442,24 +442,54 @@ def parse_advice_sections(advice_text: str) -> tuple[list[str], list[str], list[
 # ── CSS Styling ──────────────────────────────────────────────────────────────
 
 DASHBOARD_CSS = """
-:root {
-    --bg-page: #F8FAFC;
-    --border-color: #E2E8F0;
-    --text-main: #0F172A;
-    --primary: #4F46E5;
+/* Force clean, professional Light Theme across all devices & dark mode browsers */
+:root, .dark, body.dark, html.dark {
+    --bg-page: #F8FAFC !important;
+    --border-color: #E2E8F0 !important;
+    --text-main: #0F172A !important;
+    --primary: #4F46E5 !important;
+    
+    /* Gradio native theme variables override */
+    --background-fill-primary: #FFFFFF !important;
+    --background-fill-secondary: #F8FAFC !important;
+    --block-background-fill: #FFFFFF !important;
+    --block-border-color: #E2E8F0 !important;
+    --body-text-color: #0F172A !important;
+    --body-background-fill: #F8FAFC !important;
+    --block-label-text-color: #475569 !important;
+    --border-color-primary: #E2E8F0 !important;
+    --input-background-fill: #FFFFFF !important;
+    --input-border-color: #CBD5E1 !important;
+    --input-placeholder-color: #94A3B8 !important;
+    --chatbot-code-background-color: #F1F5F9 !important;
+    color-scheme: light !important;
 }
 
-body, html, .gradio-container {
-    background-color: var(--bg-page) !important;
-    color: var(--text-main) !important;
+body, html, .gradio-container, .dark body, .dark html, .dark .gradio-container {
+    background-color: #F8FAFC !important;
+    color: #0F172A !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 16px 24px !important;
     max-width: 100% !important;
 }
 
-.gradio-container {
-    padding: 16px 24px !important;
+/* Force all groups, panels, fieldsets and blocks to crisp white */
+.gradio-container .block,
+.gradio-container .group,
+.gradio-container fieldset,
+.gradio-container .panel-card,
+.dark .block,
+.dark .group,
+.dark fieldset,
+.dark .panel-card,
+div[data-testid="group"],
+div[data-testid="block"] {
+    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    color: #0F172A !important;
+    border-color: #E2E8F0 !important;
+    border-radius: 12px !important;
 }
 
 .app-header {
@@ -467,8 +497,8 @@ body, html, .gradio-container {
     justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
-    background: #FFFFFF;
-    border: 1px solid var(--border-color);
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0;
     border-radius: 12px;
     margin-bottom: 16px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
@@ -477,7 +507,7 @@ body, html, .gradio-container {
 .brand-title {
     font-size: 18px;
     font-weight: 700;
-    color: #1E1B4B;
+    color: #1E1B4B !important;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -485,8 +515,8 @@ body, html, .gradio-container {
 
 .brand-badge {
     font-size: 11px;
-    background: #EEF2FF;
-    color: #4F46E5;
+    background: #EEF2FF !important;
+    color: #4F46E5 !important;
     padding: 2px 8px;
     border-radius: 12px;
     font-weight: 600;
@@ -494,53 +524,77 @@ body, html, .gradio-container {
 
 .header-status {
     font-size: 11px;
-    color: #15803D;
-    background: #DCFCE7;
+    color: #15803D !important;
+    background: #DCFCE7 !important;
     padding: 4px 10px;
     border-radius: 20px;
     font-weight: 600;
 }
 
 .voice-input-card {
-    background: #F8FAFC;
-    border: 1px dashed #CBD5E1;
+    background: #F8FAFC !important;
+    border: 1px dashed #CBD5E1 !important;
     border-radius: 8px;
     padding: 10px 14px;
     margin-top: 10px;
 }
 
-.chatbot-wrapper .message.user {
-    background-color: #0D5C58 !important;
+/* Chatbot container clean light styling */
+.chatbot-wrapper,
+.dark .chatbot-wrapper,
+.chatbot-wrapper > div,
+.dark .chatbot-wrapper > div {
+    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 10px !important;
+}
+
+.chatbot-wrapper .message.user,
+.dark .chatbot-wrapper .message.user {
+    background-color: #4F46E5 !important;
     color: #FFFFFF !important;
     border-radius: 14px 14px 2px 14px !important;
 }
 
-.chatbot-wrapper .message.bot {
-    background-color: #F3F4F6 !important;
-    color: #1F2937 !important;
+.chatbot-wrapper .message.bot,
+.dark .chatbot-wrapper .message.bot {
+    background-color: #F1F5F9 !important;
+    color: #0F172A !important;
     border-radius: 14px 14px 14px 2px !important;
+    border: 1px solid #E2E8F0 !important;
 }
 
 .panel-card {
-    background: #FFFFFF;
-    border: 1px solid var(--border-color);
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0 !important;
     border-radius: 12px;
     padding: 16px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.03);
     margin-bottom: 12px;
 }
 
-.panel-header-title {
+.panel-header-title, .dark .panel-header-title {
     font-size: 15px;
     font-weight: 700;
-    color: #111827;
+    color: #111827 !important;
     margin: 0;
 }
 
-.panel-header-sub {
+.panel-header-sub, .dark .panel-header-sub {
     font-size: 12px;
-    color: #6B7280;
+    color: #6B7280 !important;
     margin: 2px 0 12px 0;
+}
+
+/* Inputs styling */
+.gradio-container input,
+.gradio-container textarea,
+.dark input,
+.dark textarea {
+    background-color: #FFFFFF !important;
+    color: #0F172A !important;
+    border: 1px solid #CBD5E1 !important;
 }
 """
 
@@ -1195,4 +1249,5 @@ if __name__ == "__main__":
         show_error=True,
         css=DASHBOARD_CSS,
         allowed_paths=[str(Path(__file__).parent / "outputs")],
+        js="() => { document.documentElement.classList.remove('dark'); document.body.classList.remove('dark'); }",
     )

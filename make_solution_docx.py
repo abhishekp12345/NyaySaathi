@@ -35,7 +35,7 @@ def build_solution_docx():
     cand.font.size = Pt(9.5)
     cand.font.color.rgb = RGBColor(0x11, 0x18, 0x27)
     
-    meta = title.add_run("Live Prototype: https://6393cb75cdcff96a6b.gradio.live  •  GitHub: https://github.com/abhishekp12345/NyaySaathi")
+    meta = title.add_run("Live Prototype: https://0c4146a8ae3626508f.gradio.live  •  GitHub: https://github.com/abhishekp12345/NyaySaathi")
     meta.font.size = Pt(8.5)
     meta.font.italic = True
     meta.font.color.rgb = RGBColor(0x64, 0x74, 0x8B)
