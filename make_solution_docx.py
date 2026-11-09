@@ -35,7 +35,7 @@ def build_solution_docx():
     cand.font.size = Pt(9.5)
     cand.font.color.rgb = RGBColor(0x11, 0x18, 0x27)
     
-    meta = title.add_run("Live Prototype: https://0c4146a8ae3626508f.gradio.live  •  GitHub: https://github.com/abhishekp12345/NyaySaathi")
+    meta = title.add_run("GitHub Repository: https://github.com/abhishekp12345/NyaySaathi  •  Local/Hosted: Gradio UI Port 7860")
     meta.font.size = Pt(8.5)
     meta.font.italic = True
     meta.font.color.rgb = RGBColor(0x64, 0x74, 0x8B)
@@ -93,7 +93,7 @@ def build_solution_docx():
 
     # 4. Deliverables
     add_h("4. Submission Deliverables Summary")
-    add_bullet("Live public prototype deployed at https://0c4146a8ae3626508f.gradio.live and GitHub repository at https://github.com/abhishekp12345/NyaySaathi.", "1. Interactive Prototype:")
+    add_bullet("GitHub repository at https://github.com/abhishekp12345/NyaySaathi with full source code, architecture, 100% automated test benchmarks, and local/cloud launch instructions.", "1. Prototype & Repository:")
     add_bullet("Formal Legal Notice and 4-Step Recovery Action Plan downloadable as editable Microsoft Word documents (.docx) with clear [[PLACEHOLDER]] markers.", "2. Pre-Litigation Notice & Action Plan:")
     add_bullet("Complete raw unedited test results and metrics preserved in outputs/evaluation_report.json and outputs/validator_log.jsonl.", "3. Raw Test Outputs:")
     add_bullet("All legal drafts include a clear statutory disclaimer stating this tool provides educational legal information and does not constitute formal advocate representation under the Advocates Act, 1961.", "4. Legal Disclaimer:")
