@@ -1,7 +1,7 @@
 # NyaySaathi (न्याय साथी) — AI Legal Assistant for Everyday Money Disputes in India
 **Kuku AI Generalist Assignment — Problem 2 Submission Document (2 Pages)**  
 **Candidate Name:** Abhishek Kumar Priyadershi | **Roll No:** 230047 | **Branch:** BSBE | **College:** IIT Kanpur | **Problem:** Problem 2 (AI Lawyer)  
-**GitHub Repository:** https://github.com/abhishekp12345/NyaySaathi | **Prototype:** Gradio UI (Port 7860 / Cloud) | **Raw Outputs:** `outputs/`
+**Live Prototype URL:** https://nyaysaathi-grkx.onrender.com | **GitHub Repo:** https://github.com/abhishekp12345/NyaySaathi | **Raw Outputs:** `outputs/`
 
 ---
 
@@ -60,7 +60,7 @@ User Downloads Notice (.docx) ◀── Citation Checker (Code) ◀── AI Not
 ---
 
 ### 4. What Is Delivered in the Project
-1. **Interactive Prototype:** Live at https://d70ff15dcd2ab9e3a3.gradio.live (and GitHub at https://github.com/abhishekp12345/NyaySaathi) with microphone voice input and `.docx` downloads.
+1. **Interactive Prototype:** Deployed live 24/7 on Render Cloud at https://nyaysaathi-grkx.onrender.com (and complete GitHub repository at https://github.com/abhishekp12345/NyaySaathi) with full UI, dispute advisor, practice simulator, and `.docx` downloads.
 2. **Pre-Litigation Documents:** Generates both a formal Legal Notice and a 4-step Recovery Roadmap with customizable cure periods (7, 15, or 30 days).
 3. **Raw Evaluation Files:** Complete unedited test results saved in `outputs/evaluation_report.json` and `validator_log.jsonl`.
 4. **Legal Disclaimer:** Clearly informs users that the tool provides legal information, not formal advocate representation under the Advocates Act, 1961.
