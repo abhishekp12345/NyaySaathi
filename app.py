@@ -1241,11 +1241,13 @@ def create_app():
 if __name__ == "__main__":
     print("[APP] Initializing NyaySaathi (न्याय साथी) Gradio UI...", flush=True)
     app = create_app()
-    print("[APP] Launching Gradio server on http://0.0.0.0:7860...", flush=True)
+    port = int(os.environ.get("PORT", 7860))
+    is_cloud = bool(os.environ.get("PORT") or os.environ.get("RENDER"))
+    print(f"[APP] Launching Gradio server on http://0.0.0.0:{port}...", flush=True)
     app.launch(
         server_name="0.0.0.0",
-        server_port=7860,
-        share=True,
+        server_port=port,
+        share=not is_cloud,
         show_error=True,
         css=DASHBOARD_CSS,
         allowed_paths=[str(Path(__file__).parent / "outputs")],
